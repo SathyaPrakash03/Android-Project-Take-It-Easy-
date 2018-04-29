@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activi_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:background="@drawable/backgd"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.bowenzhang.takeiteasy.LoginActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userEmail"
+    android:textColor="@android:color/white"
+    android:textColorHint="@android:color/white"
+    android:hint="Enter Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPass"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="Enter Password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:id="@+id/loginButtonClicked"
+        android:onClick="loginButtonClicked"/>
+</LinearLayout>

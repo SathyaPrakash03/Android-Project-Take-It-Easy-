@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/food1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/burger1" />
+
+        <TextView
+            android:id="@+id/food1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button1"
+            android:layout_toEndOf="@+id/food1"
+            android:text="  Burger"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/food1name"
+            android:text="  $5.00"
+            android:textColor="#4CAF50"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/price1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:onClick="order1ButtonClicked"
+            android:text="Order" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/food2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/chicken" />
+
+        <TextView
+            android:id="@+id/food2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/food2"
+            android:text="  Chickens"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food2name"
+            android:layout_toRightOf="@+id/food2"
+            android:text="  $7.00"
+            android:textColor="#4CAF50"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/price2"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:onClick="order2ButtonClicked"
+            android:text="Order" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/food3"
+            android:background="@drawable/perfectfrenchfries"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  French Fries"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/food3"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:id="@+id/food3name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/food3"
+            android:textColor="#4CAF50"
+            android:layout_below="@id/food3name"
+            android:textSize="30dp"
+            android:id="@+id/price3"
+            android:text="  $2.50"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/price3"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:onClick="order3ButtonClicked"
+            android:text="Order" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/food4"
+            android:background="@drawable/onion" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Onion Rings"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/food4"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:id="@+id/food4name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/food4"
+            android:textColor="#4CAF50"
+            android:layout_below="@id/food4name"
+            android:textSize="30dp"
+            android:id="@+id/price4"
+            android:text="  $3.50"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/price4"
+            android:layout_marginEnd="12dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="12dp"
+            android:onClick="order4ButtonClicked"
+            android:text="Order" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/CheckoutButtonClicked"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:text="Cart" />
+</LinearLayout>

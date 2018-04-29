@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "446040272325",
+    "firebase_url": "https://androideat-3f28f.firebaseio.com",
+    "project_id": "androideat-3f28f",
+    "storage_bucket": "androideat-3f28f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446040272325:android:dda1e90cadb6b8b5",
+        "android_client_info": {
+          "package_name": "com.bowenzhang.androideat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446040272325-sk4cca6371g08auqapfekoh3up28flb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bowenzhang.androideat",
+            "certificate_hash": "b5b3660a89cec6a52e1839e59785149beaad75d5"
+          }
+        },
+        {
+          "client_id": "446040272325-h16q4fmnd2pq5hcqvl687v6aq0ljdqqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_JzDAsbl6db_NbiZ5jtrdyOGe5R81k8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446040272325-h16q4fmnd2pq5hcqvl687v6aq0ljdqqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446040272325:android:0aa6c9912f097d0d",
+        "android_client_info": {
+          "package_name": "com.bowenzhang.takeiteasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446040272325-5cm9p11sktetlvq9sacabs845qdjk7gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bowenzhang.takeiteasy",
+            "certificate_hash": "b58d0dab6fe37b5de9bbbfee31af64f807f1230b"
+          }
+        },
+        {
+          "client_id": "446040272325-lhl85vcnvov00ejtcpv7cocf45qhd4gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bowenzhang.takeiteasy",
+            "certificate_hash": "b5b3660a89cec6a52e1839e59785149beaad75d5"
+          }
+        },
+        {
+          "client_id": "446040272325-h16q4fmnd2pq5hcqvl687v6aq0ljdqqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_JzDAsbl6db_NbiZ5jtrdyOGe5R81k8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446040272325-h16q4fmnd2pq5hcqvl687v6aq0ljdqqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

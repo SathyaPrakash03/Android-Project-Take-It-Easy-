@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_orderlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/backgd"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.bowenzhang.takeiteasy.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Your order is:"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Finalorderlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="24sp"
+        android:text="List"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Your order status:"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="24sp"
+        android:text="Submitted"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish and Quit"
+        android:id="@+id/Finish"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:id="@+id/checkStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:text="Check Status"
+        />
+</LinearLayout>
